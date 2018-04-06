@@ -13,7 +13,7 @@
 .meat   { background: url("https://78.media.tumblr.com/54d33d70e72069ff1073cd3d7adbe03e/tumblr_p6qsohj9m31s5fsqro2_r1_75sq.gif"); }
 .player { background: url("https://78.media.tumblr.com/a53cdb4e02ef03b5301d74463b961857/tumblr_p5ydkeIXK91s5fsqro3_r1_75sq.gif"); }
 .star   { background: url("https://78.media.tumblr.com/f6eefdde6c4f9719f418e39a0fdf7aff/tumblr_p6qsohj9m31s5fsqro1_75sq.gif");    }
-.cat    { background: purple; } /*https://78.media.tumblr.com/0923c42313562c7072b2ae080b2b27c8/tumblr_p6qsohj9m31s5fsqro3_r1_75sq.gif */
+.cat    { background: url("https://78.media.tumblr.com/0923c42313562c7072b2ae080b2b27c8/tumblr_p6qsohj9m31s5fsqro3_r1_75sq.gif");}
 
 .game {
   overflow: hidden;

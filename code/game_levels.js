@@ -8,7 +8,7 @@ var GAME_LEVELS = [
    "                                                                                                             1111                       ",
    "                                        o                                                                                               ",
    "                                                                                           1111                         xxxx       xxxxx",
-   "                                      xxxx                        xxxxxxx                                            xxxx!!!!!!!!!!!!!!!!",
+   "                                      xxxx                        xxxxxxx                                            xxxx!!!!!!!!!!!!!!!",
    "                                     xx!!xxx                    xxxx     xxxx     xxxx             xxxx            xxxx!!!!!!!!!!!!!!!!!",
    "                                  xxxxx!!xxxxxx       xxx     xx           xx                                    xxx!!!!!!!!!!!!!!!!!!!!",
    "                                   xx!!!!!!!!!!!!!!          xx                                                xxx!!!!!!!!!!!!!!!!!!!!!!",
@@ -29,7 +29,7 @@ var GAME_LEVELS = [
    "                        o                                                                                                               ",
    "                                 *                                                                                o                     ",
    "                      xxxx                                                                                                              ",
-   "                U   xxxxxx    xx    xx                        xxxxxxx     xxx     xxxxxxxxxxxxxxxxxxx                                   ",
+   "                    xxxxxx    xx    xx                        xxxxxxx     xxx     xxxxxxxxxxxxxxxxxxx                                   ",
    "     @            xxxxxxxx    xx    xx                        xx                                                xxxx                    ",
    "                xxxxxxxxx     xx    xx              o        xx                                                                         ",
    "    xxx       xxxxxxxxxxx     xx     x                     xxx                                           xxxx             xxxxx         ",
@@ -75,7 +75,7 @@ var GAME_LEVELS = [
   "                          bbbbbbb                                    bbb                            11111                               x",
   "                    bbbbbbbbbbbbb                  *                 bbb                  o                                             x",
   "                          bbbbbbb                 1                  bbb                                                                x",
-  "mmmmmmmmmmm               bbbbbbb                1111           b U   bbb              xxxxxxx                                           x",
+  "mmmmmmmmmmm               bbbbbbb                1111           b C   bbb              xxxxxxx                                          x",
   "!!!!!!!!!!                bbbbbbb                               bbbbbbbb                                                                x",
   "mmmmmmmm v                bbbbbbb                                    bbb                                                                x",
   "                          bbbbbbb                                    bbb                           xxxx                                 x",
@@ -90,12 +90,12 @@ var GAME_LEVELS = [
   "   o                      bbbbbbb                           bbbbbbbbbbbb                    bbbbxxxx                           !!!!!!!!!x",
   "                          bbbbbbb                                    bbb                    bbbxbxxxxxxx                       ! mmmmmmmx",
   "bbbbbbbbb                 bbbbbbb                              o     bbb                    bbbxbxbxxxxxxxxx                   v        x",
-  "                          bbbbbbb U      x                           bbb                    bbbxbxbxxxxxxxxxxxxx                        x",
+  "                          bbbbbbb C      x                           bbb                    bbbxbxbxxxxxxxxxxxxx                        x",
   "               xxxxxxxxxxxbbbbbbbxxxxxxxxx           xxxxxxxxxxxxxxxxbbb         xxxxxxxxxxxbbbxxxxxxxxxxxxxxxxxxx        xxxx   xxxxxxxx",
   "                                                                                                                                       =x",
   " =     @                                         o                                                                  o                   x",
-  " =                                                                                                                                   o   x",
-  "                            U                                        U                                                                    x",
+  " =                                                                                                                                   o  x",
+  "                            C                                        C                                                                  x",
   "!!!!xxxxxxxxxxxxxxxx!!!!!!!xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!xxxxxxxxxxxxxxxxxxxx!!!!!!!!xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
@@ -114,7 +114,7 @@ var GAME_LEVELS = [
    "111111111111           111111111                                                                                                         1",
    "1111111111111111       11111111111                                                                                                     111",
    "                         1111111111111                                      111                                              1111   111111",
-   "                                                 *            *           11111111                                         1111111111111111",
+   "                                                 *            *           11111111                                         111111111111111",
    "                                                                      111111111111                                     1111111111111111111",
    "                                                                                                                                          ",
    "                                                                                                                                          ",
@@ -151,12 +151,12 @@ var GAME_LEVELS = [
    "               bbbbbbbb                                                                                                    b             x",
    "mmmmmmm        bbbbbbbb                                                                                                    b  *   *   *  x",
    "!!!!!!!!!!!!!!!bbbbbbbb                                                                                                    b             x",
-   "xxxxxxxxxxxxxxxbbbbbbbb                                        U                                                           b  *   o   *  x",
+   "xxxxxxxxxxxxxxxbbbbbbbb                                        C                                                           b  *   o   *  x",
    "                                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                                           x",
    "     *                                        xxxxxxxxxxxxx          xxxxxxxxxxxxx         *                           *      *   *   *  x",
    "                                           xxxxxxxxxxxxx                xxxxxxxxxxxxx                                                    x",
    "                                        xxxxxxxxxxxxx                      xxxxxxxxxxxxx                *                bbbbbxxxxxxxxxxxx",
-   "                        U           xxxxxxxxxxxxxx             U              xxxxxxxxxxxxx                          bbbbbbbbbxxxxxxxxxxxx",
+   "                        C           xxxxxxxxxxxxxx             C              xxxxxxxxxxxxx                          bbbbbbbbbxxxxxxxxxxxx",
    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
    ],
 
@@ -193,6 +193,6 @@ var GAME_LEVELS = [
 
 ];
 
-if (typeof module != "undefined" && module.exports)
-  module.exports = GAME_LEVELS;
+if (typeof modCle != "Cndefined" && modCle.exports)
+  modCle.exports = GAME_LEVELS;
  

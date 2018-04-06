@@ -4,7 +4,7 @@ var actorChars = {
   "o": meat, // A meat will wobble up and down
   "=": Lava, "|": Lava, "v": Lava, 
   "*": Star, // A star will twinkle
-  "U": Cat,
+  "9": Cat, "C": Cat,
 };
 
 function Level(plan) {
@@ -40,6 +40,9 @@ function Level(plan) {
       // Because there is a third case (space ' '), use an "else if" instead of "else"
       else if (ch == "!")
         fieldType = "lava";
+
+      else if (ch == "9")
+        feildType = "cat";
 
       else if (ch == "1")
         fieldType = "cloud";
@@ -106,18 +109,7 @@ function Star(pos) {
 }
 Star.prototype.type = 'star';
 
-{
-  function Cat(pos) {
- this.pos = pos;
- this.size = new Vector(1.0, 1.5);
-  if (ch == "U") {
-    // Horizontal lava
-    this.speed = new Vector(2, 0);
-  }
- }
-Cat.prototype.type = "cat";
 
-};
 
 // Lava is initialized based on the character, but otherwise has a
 // size and position
@@ -139,6 +131,18 @@ function Lava(pos, ch) {
 Lava.prototype.type = "lava";
 
 }
+{
+function Cat(pos, ch) {
+  this.pos = pos;
+  this.size = new Vector(1.4, 1.4);
+  if (ch == "C") {
+    // Horizontal cat
+    this.speed = new Vector(2.2, 0);
+  }
+ }
+Cat.prototype.type = "cat";
+
+};
 
 // Helper function to easily create an element of a type provided 
 function elt(name, className) {
@@ -257,6 +261,8 @@ Level.prototype.obstacleAt = function(pos, size) {
     return "wall";
   if (yEnd > this.height)
     return "lava";
+  if (yEnd > this.height)
+    return "cat";
 
   // Check each grid position starting at yStart, xStart
   // for a possible obstacle (non null value)
