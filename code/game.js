@@ -106,12 +106,15 @@ function Star(pos) {
 }
 Star.prototype.type = 'star';
 
-function Cat(pos) {
+{
+  function Cat(pos) {
  this.pos = pos;
-  this.size = new Vector(1, 1);
+ this.size = new Vector(1.0, 1.5);
   if (ch == "U") {
-}
-
+    // Horizontal lava
+    this.speed = new Vector(2, 0);
+  }
+ }
 Cat.prototype.type = "cat";
 
 };
@@ -134,6 +137,8 @@ function Lava(pos, ch) {
   }
 
 Lava.prototype.type = "lava";
+
+}
 
 // Helper function to easily create an element of a type provided 
 function elt(name, className) {
@@ -509,5 +514,4 @@ function runGame(plans, Display) {
     });
   }
   startLevel(0);
-}
 }
